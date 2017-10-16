@@ -16,7 +16,7 @@ class SideMenuScreen extends Component {
 			    <Container>
 			        <Header>
 			            <Body>
-			                <Title>{ me.name || "LTM"}</Title>
+			                <Title>{  "LTM"}</Title>
 			            </Body>
 			        </Header>
 			        <Content style={{ backgroundColor: "#FFFFFF" }}>

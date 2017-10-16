@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
 import { nav, rootScreen } from './nav';
-import { me } from './me';
+import { request } from './request';
 import { sidemenu } from './sidemenu';
 
 const rootReducer = combineReducers({
 	nav,
 	rootScreen,
-	me,
+	request,
 	sidemenu
 })
 

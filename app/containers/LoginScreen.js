@@ -5,7 +5,6 @@ import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Rig
 import getTheme from '../../native-base-theme/components';
 import material from '../../native-base-theme/variables/platform';
 
-import { updateLocalInfo, login } from '../actions/me';
 
 export class LoginScreen extends Component {
 	render() {

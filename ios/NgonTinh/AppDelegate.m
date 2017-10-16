@@ -24,6 +24,9 @@
                                                       moduleName:@"NgonTinh"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
+  #ifdef DEBUG
+    jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.238:8081/index.ios.bundle"];
+  #endif
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

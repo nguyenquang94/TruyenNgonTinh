@@ -13,14 +13,13 @@ import Skeleton from './app/containers/Skeleton';
 const store = configureStore()
 
 export default class NgonTinh extends Component {
-  render() {
-  	console.disableYellowBox = true;
-    return (
-      <Provider store={store}>
-        <Skeleton />
-      </Provider>
-    );
-  }
+	render() {
+		return (
+			<Provider store={store}>
+				<Skeleton />
+			</Provider>
+		);
+	}
 }
 
 

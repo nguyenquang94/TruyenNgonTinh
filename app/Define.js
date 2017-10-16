@@ -1,5 +1,5 @@
 const Define = {
-	base_url: "http://v2.ltm.libre.com.vn",
+	base_url: "http://truyencuatui.net/api",
 	pp_client_id: 2,
 	pp_client_secret: 'FKiBCPgHQhDf4APYG5CcaWnAgF6RkCkZPuogs77M',
 	token: '',
